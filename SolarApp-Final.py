@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-# template.py by Barron Stone
-# This is an exercise file from Python GUI Development with Tkinter on lynda.com
+
 
 from tkinter import *
 from tkinter import ttk
@@ -232,37 +230,3 @@ def Find_Power(coords):
                     Power = Array_Of_Values[i][1]
     return Power
 if __name__ == "__main__": main()
-
-#Window_Cost_Per_m2 = 281.1222161 #£/m2
-#Roof_Cost_Per_m2 = 262.7622161 #£/m2
-#Value_Of_kWh = 0.17
-#Value_Of_kWh = 0.17
-#Wall_Eff = 0.0428
-#Roof_Eff = 0.165 
-#CO2_Per_kWh = 0.256
-#Global_CO2_Emissions = 36.15E+09
-#Business_Sector = 65.9E+06
-#Average_Electricity_Consumption_Per_m2 = 253 #Figure from data
-#CompanyRoof = 'Roof'
-#CompanyWindow = 'Window'
-#CompanyName = 'PV Installer'
-#CompanyFootprint = 43000
-#CompanyStoreys = 46
-#Height_Of_Storey = 4.2672 #m
-#CompanyAddress = '110 Bishopsgate London'
-#Footprint = CompanyFootprint
-#Storeys = CompanyStoreys
-#Address = CompanyAddress
-#Address_Values = {}
-#Address_Values[Address] = {
-#    'Footprint (square m)' : "%.2f" % Footprint,
-#    'Exposure Footprint/year' : "%.2f" % (4*math.sqrt(Footprint)*Storeys*Height_Of_Storey + Footprint),
-#    'Average Energy Consumption (kWh/year)' : "%.2f" % (Average_Electricity_Consumption_Per_m2*Footprint*Storeys),
-#    'Energy Produced From PV (kWh/year)' : "%.2f" % (Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)/Value_Of_kWh),
-#    'Total Value of Electricity Produced (£/year)' : "%.2f" % (Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)),
-#    'Total Cost of Installation (£)' : "%.2f" % Total_Cost(Footprint, Storey, CompanyRoof, CompanyWindow),
-#    'Payback Time (year(s))' : "%.2f" % (Total_Cost(Footprint, Storey, CompanyRoof, CompanyWindow)/Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)),
-#    'Kgs of CO2 saved (tonnes/year)' :  "%.2f" % ((Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)/Value_Of_kWh)*CO2_Per_kWh/1000),
-#    'Percentage saved in relation to global' : "%.7f" % ((((Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)/Value_Of_kWh)*CO2_Per_kWh/1000)/(Global_CO2_Emissions))*100),
-#    'Percentage saved in relation to business sector' : "%.5f" % ((((Value_Of_Energy_Produced(Address, Footprint, Storeys, CompanyRoof, CompanyWindow)/Value_Of_kWh)*CO2_Per_kWh/1000)/(Business_Sector))*100)
-#}
